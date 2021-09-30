@@ -1,7 +1,5 @@
 @echo off
 
-:: 压缩虚拟机硬盘文件脚本
-:: 使用方式 ./compact-vmdk.bat "C:\Program Files\Oracle\VirtualBox\VBoxManage.exe" "C:\xxx.vmdk"
 set VBoxManagePath=%~f1
 set VirtualBoxDir=%~dp2
 set VirtualBoxName=%~n2
